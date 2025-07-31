@@ -2,7 +2,7 @@ import numpy as np
 import mlflow
 import pandas as pd
 
-mlflow.set_tracking_uri("https://dagshub.com/michelpf/fiap-ds-mlops-10dtsr-laptop-pricing-brl.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/wagnerdataset/fiap-ds-mlops-10dtsr-laptop-pricing-brl.mlflow")
 
 model_uri = "models:/laptop-pricing-model-brl/latest"
 model = mlflow.pyfunc.load_model(model_uri)

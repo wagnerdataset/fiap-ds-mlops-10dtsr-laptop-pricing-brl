@@ -1,7 +1,7 @@
 import mlflow
 from mlflow.tracking import MlflowClient
 
-mlflow.set_tracking_uri("https://dagshub.com/michelpf/fiap-ds-mlops-10dtsr-laptop-pricing-brl.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/wagnerdataset/fiap-ds-mlops-10dtsr-laptop-pricing-brl.mlflow")
 
 client = MlflowClient()
 model_name = "laptop-pricing-model-brl"
