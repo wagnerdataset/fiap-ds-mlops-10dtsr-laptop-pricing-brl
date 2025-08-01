@@ -2,7 +2,10 @@
 mlflow_report.md
 
 # Data
-/data/
+# Ignora o conteúdo da pasta data, mas não os arquivos .dvc
+data/*
+!data/**/*.dvc
+!data/.gitignore
 
 
 # Mac OS-specific storage files
