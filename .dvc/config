@@ -1,0 +1,7 @@
+[core]
+    autostage = true
+    remote = origin
+
+['remote "origin"']
+    url = s3://wagnerdataset/fiap-ds-mlops-10dtsr-laptop-pricing-brl
+    endpointurl = https://dagshub.com/wagnerdataset/fiap-ds-mlops-10dtsr-laptop-pricing-brl.s3
